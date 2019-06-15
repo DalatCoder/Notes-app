@@ -6,6 +6,8 @@ const addNotes = (title, body) => {
 
   const isTitleTaken = notes.find(el => el.title === title)
 
+  debugger
+
   if (!isTitleTaken) {
     notes.push({
       title,
